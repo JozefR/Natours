@@ -35,12 +35,32 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
+/* header with relative position is the origin where top and left of logo-box starts to count */
 .logo-box{
     position: absolute;
-    top: 40px;
+    top: 40px; 
     left: 40px;
 }
 
 .logo{
     height: 35px;
+}
+
+.heading-primary{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.heading-primary-main{
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+
+.heading-primary-sub{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
 }
